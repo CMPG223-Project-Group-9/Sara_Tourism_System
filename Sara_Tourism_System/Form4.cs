@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace Sara_Tourism_System
 {
-    public partial class Home : Form
+    public partial class Booking : Form
     {
-        public Home()
+        public Booking()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void lblSignUp_MouseEnter(object sender, EventArgs e)
-        {
-            
         }
     }
 }
