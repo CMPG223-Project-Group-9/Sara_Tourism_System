@@ -30,31 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lblRegister = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
-            this.imgShow = new System.Windows.Forms.PictureBox();
-            this.imgHidden = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgShow)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgHidden)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.linkLabel1);
+            this.groupBox1.Controls.Add(this.lblRegister);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.imgShow);
-            this.groupBox1.Controls.Add(this.imgHidden);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.btnLogin);
+            this.groupBox1.Controls.Add(this.txtPassword);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -65,17 +59,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login / Register";
             // 
-            // linkLabel1
+            // lblRegister
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Blue;
-            this.linkLabel1.Location = new System.Drawing.Point(239, 422);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(89, 25);
-            this.linkLabel1.TabIndex = 9;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Sign Up";
+            this.lblRegister.AutoSize = true;
+            this.lblRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegister.LinkColor = System.Drawing.Color.Blue;
+            this.lblRegister.Location = new System.Drawing.Point(239, 422);
+            this.lblRegister.Name = "lblRegister";
+            this.lblRegister.Size = new System.Drawing.Size(89, 25);
+            this.lblRegister.TabIndex = 9;
+            this.lblRegister.TabStop = true;
+            this.lblRegister.Text = "Sign Up";
             // 
             // label3
             // 
@@ -88,51 +82,31 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Don\'t have an account?";
             // 
-            // imgShow
+            // btnLogin
             // 
-            this.imgShow.Image = global::Sara_Tourism_System.Properties.Resources.eye;
-            this.imgShow.Location = new System.Drawing.Point(199, 187);
-            this.imgShow.Name = "imgShow";
-            this.imgShow.Size = new System.Drawing.Size(40, 30);
-            this.imgShow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgShow.TabIndex = 6;
-            this.imgShow.TabStop = false;
+            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.FlatAppearance.BorderSize = 2;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Location = new System.Drawing.Point(132, 318);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(99, 40);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = false;
             // 
-            // imgHidden
+            // txtPassword
             // 
-            this.imgHidden.Image = global::Sara_Tourism_System.Properties.Resources.hidden;
-            this.imgHidden.Location = new System.Drawing.Point(199, 187);
-            this.imgHidden.Name = "imgHidden";
-            this.imgHidden.Size = new System.Drawing.Size(40, 30);
-            this.imgHidden.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgHidden.TabIndex = 5;
-            this.imgHidden.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(132, 318);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 40);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.ForeColor = System.Drawing.Color.Transparent;
-            this.textBox2.Location = new System.Drawing.Point(60, 230);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(304, 27);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.txtPassword.BackColor = System.Drawing.SystemColors.Window;
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPassword.ForeColor = System.Drawing.Color.Black;
+            this.txtPassword.Location = new System.Drawing.Point(60, 230);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(304, 27);
+            this.txtPassword.TabIndex = 3;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // label2
             // 
@@ -144,15 +118,15 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Enter Password:";
             // 
-            // textBox1
+            // txtEmail
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.ForeColor = System.Drawing.Color.Transparent;
-            this.textBox1.Location = new System.Drawing.Point(60, 128);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(304, 27);
-            this.textBox1.TabIndex = 1;
+            this.txtEmail.BackColor = System.Drawing.SystemColors.Window;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
+            this.txtEmail.Location = new System.Drawing.Point(60, 128);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(304, 27);
+            this.txtEmail.TabIndex = 1;
             // 
             // label1
             // 
@@ -176,8 +150,6 @@
             this.Text = "Home";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgShow)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgHidden)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -185,15 +157,13 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox imgShow;
-        private System.Windows.Forms.PictureBox imgHidden;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel lblRegister;
     }
 }
 

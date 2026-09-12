@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dateRegister = new System.Windows.Forms.DateTimePicker();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.textBxtSurname = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -47,17 +47,17 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnRegister);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.dateRegister);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtPassword);
+            this.groupBox1.Controls.Add(this.txtEmail);
+            this.groupBox1.Controls.Add(this.textBxtSurname);
+            this.groupBox1.Controls.Add(this.txtName);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(94, 27);
@@ -67,17 +67,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Create an account";
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(101, 563);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 60);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegister.FlatAppearance.BorderSize = 2;
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.ForeColor = System.Drawing.Color.White;
+            this.btnRegister.Location = new System.Drawing.Point(101, 563);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(154, 60);
+            this.btnRegister.TabIndex = 10;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -137,35 +137,35 @@
             this.dateRegister.Size = new System.Drawing.Size(373, 38);
             this.dateRegister.TabIndex = 4;
             // 
-            // textBox4
+            // txtPassword
             // 
-            this.textBox4.Location = new System.Drawing.Point(30, 352);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(225, 38);
-            this.textBox4.TabIndex = 3;
-            this.textBox4.UseSystemPasswordChar = true;
+            this.txtPassword.Location = new System.Drawing.Point(30, 352);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(225, 38);
+            this.txtPassword.TabIndex = 3;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
-            // textBox3
+            // txtEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(26, 225);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(463, 38);
-            this.textBox3.TabIndex = 2;
+            this.txtEmail.Location = new System.Drawing.Point(26, 225);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(463, 38);
+            this.txtEmail.TabIndex = 2;
             // 
-            // textBox2
+            // textBxtSurname
             // 
-            this.textBox2.Location = new System.Drawing.Point(264, 101);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(216, 38);
-            this.textBox2.TabIndex = 1;
+            this.textBxtSurname.Location = new System.Drawing.Point(264, 101);
+            this.textBxtSurname.Name = "textBxtSurname";
+            this.textBxtSurname.Size = new System.Drawing.Size(216, 38);
+            this.textBxtSurname.TabIndex = 1;
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(26, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(216, 38);
-            this.textBox1.TabIndex = 0;
+            this.txtName.Location = new System.Drawing.Point(26, 101);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(216, 38);
+            this.txtName.TabIndex = 0;
             // 
             // Registration
             // 
@@ -188,16 +188,16 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DateTimePicker dateRegister;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox textBxtSurname;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegister;
     }
 }

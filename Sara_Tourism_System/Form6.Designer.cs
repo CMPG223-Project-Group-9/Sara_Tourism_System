@@ -28,56 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgBookingsView = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.cbxActivity = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.txtNumber = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dateEditBooking = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBookingsView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dtgBookingsView
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.AliceBlue;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(80, 110);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(933, 203);
-            this.dataGridView1.TabIndex = 0;
+            this.dtgBookingsView.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.dtgBookingsView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgBookingsView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dtgBookingsView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgBookingsView.Location = new System.Drawing.Point(80, 110);
+            this.dtgBookingsView.Name = "dtgBookingsView";
+            this.dtgBookingsView.RowHeadersVisible = false;
+            this.dtgBookingsView.RowHeadersWidth = 51;
+            this.dtgBookingsView.RowTemplate.Height = 24;
+            this.dtgBookingsView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgBookingsView.Size = new System.Drawing.Size(933, 203);
+            this.dtgBookingsView.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(75, 82);
+            this.label1.Location = new System.Drawing.Point(74, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 25);
+            this.label1.Size = new System.Drawing.Size(231, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Booking Information";
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.btnSave);
+            this.groupBox1.Controls.Add(this.cbxActivity);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtNumber);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.dateEditBooking);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
@@ -88,38 +88,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Edit Details";
             // 
-            // label2
+            // btnSave
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 56);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Booking Date:";
+            this.btnSave.FlatAppearance.BorderSize = 2;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Location = new System.Drawing.Point(664, 225);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(141, 45);
+            this.btnSave.TabIndex = 6;
+            this.btnSave.Text = "Save Changes";
+            this.btnSave.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // cbxActivity
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(180, 58);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(182, 31);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 140);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Number of People:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(192, 142);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 31);
-            this.textBox1.TabIndex = 3;
+            this.cbxActivity.FormattingEnabled = true;
+            this.cbxActivity.Location = new System.Drawing.Point(180, 216);
+            this.cbxActivity.Name = "cbxActivity";
+            this.cbxActivity.Size = new System.Drawing.Size(182, 33);
+            this.cbxActivity.TabIndex = 5;
             // 
             // label4
             // 
@@ -130,24 +116,38 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Activity:";
             // 
-            // comboBox1
+            // txtNumber
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(180, 216);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 33);
-            this.comboBox1.TabIndex = 5;
+            this.txtNumber.Location = new System.Drawing.Point(192, 142);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(100, 31);
+            this.txtNumber.TabIndex = 3;
             // 
-            // button1
+            // label3
             // 
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(664, 225);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 45);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Save Changes";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(16, 140);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(169, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Number of People:";
+            // 
+            // dateEditBooking
+            // 
+            this.dateEditBooking.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateEditBooking.Location = new System.Drawing.Point(180, 58);
+            this.dateEditBooking.Name = "dateEditBooking";
+            this.dateEditBooking.Size = new System.Drawing.Size(182, 31);
+            this.dateEditBooking.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(16, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Booking Date:";
             // 
             // EditBooking
             // 
@@ -158,10 +158,10 @@
             this.ClientSize = new System.Drawing.Size(1115, 704);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtgBookingsView);
             this.Name = "EditBooking";
             this.Text = "Edit Booking";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBookingsView)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -171,15 +171,15 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgBookingsView;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNumber;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateEditBooking;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.ComboBox cbxActivity;
         private System.Windows.Forms.Label label4;
     }
 }

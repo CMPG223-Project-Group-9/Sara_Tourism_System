@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxActivity = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBook = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblActivity = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.lblDuration = new System.Windows.Forms.Label();
             this.lblPrice = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblDuration = new System.Windows.Forms.Label();
+            this.lstDescription = new System.Windows.Forms.ListBox();
+            this.lblActivity = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -62,18 +62,18 @@
             this.label1.Text = "Activities";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // comboBox1
+            // cbxActivity
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(31, 176);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(289, 33);
-            this.comboBox1.TabIndex = 2;
-            this.comboBox1.Text = "Select an Activity to View";
+            this.cbxActivity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cbxActivity.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxActivity.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxActivity.ForeColor = System.Drawing.Color.Black;
+            this.cbxActivity.FormattingEnabled = true;
+            this.cbxActivity.Location = new System.Drawing.Point(31, 176);
+            this.cbxActivity.Name = "cbxActivity";
+            this.cbxActivity.Size = new System.Drawing.Size(289, 33);
+            this.cbxActivity.TabIndex = 2;
+            this.cbxActivity.Text = "Select an Activity to View";
             // 
             // label2
             // 
@@ -111,19 +111,19 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Duration:";
             // 
-            // button1
+            // btnBook
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(354, 494);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 64);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Make a Booking";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBook.BackColor = System.Drawing.Color.Transparent;
+            this.btnBook.FlatAppearance.BorderSize = 2;
+            this.btnBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBook.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBook.ForeColor = System.Drawing.Color.White;
+            this.btnBook.Location = new System.Drawing.Point(354, 494);
+            this.btnBook.Name = "btnBook";
+            this.btnBook.Size = new System.Drawing.Size(185, 64);
+            this.btnBook.TabIndex = 9;
+            this.btnBook.Text = "Make a Booking";
+            this.btnBook.UseVisualStyleBackColor = false;
             // 
             // label5
             // 
@@ -156,47 +156,13 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.listBox1);
+            this.panel1.Controls.Add(this.lstDescription);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnBook);
             this.panel1.Location = new System.Drawing.Point(112, 364);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(908, 575);
             this.panel1.TabIndex = 12;
-            // 
-            // lblActivity
-            // 
-            this.lblActivity.AutoSize = true;
-            this.lblActivity.BackColor = System.Drawing.Color.Transparent;
-            this.lblActivity.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActivity.ForeColor = System.Drawing.Color.White;
-            this.lblActivity.Location = new System.Drawing.Point(504, 320);
-            this.lblActivity.Name = "lblActivity";
-            this.lblActivity.Size = new System.Drawing.Size(100, 28);
-            this.lblActivity.TabIndex = 13;
-            this.lblActivity.Text = "[Activity]";
-            // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.listBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(27, 92);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(855, 154);
-            this.listBox1.TabIndex = 6;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.lblDuration);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(45, 330);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 100);
-            this.panel2.TabIndex = 7;
             // 
             // panel4
             // 
@@ -207,18 +173,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 100);
             this.panel4.TabIndex = 9;
-            // 
-            // lblDuration
-            // 
-            this.lblDuration.AutoSize = true;
-            this.lblDuration.BackColor = System.Drawing.Color.Transparent;
-            this.lblDuration.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDuration.ForeColor = System.Drawing.Color.White;
-            this.lblDuration.Location = new System.Drawing.Point(3, 56);
-            this.lblDuration.Name = "lblDuration";
-            this.lblDuration.Size = new System.Drawing.Size(103, 28);
-            this.lblDuration.TabIndex = 9;
-            this.lblDuration.Text = "[duration]";
             // 
             // lblPrice
             // 
@@ -232,6 +186,52 @@
             this.lblPrice.TabIndex = 10;
             this.lblPrice.Text = "[price]";
             // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.lblDuration);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Location = new System.Drawing.Point(45, 330);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.TabIndex = 7;
+            // 
+            // lblDuration
+            // 
+            this.lblDuration.AutoSize = true;
+            this.lblDuration.BackColor = System.Drawing.Color.Transparent;
+            this.lblDuration.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDuration.ForeColor = System.Drawing.Color.White;
+            this.lblDuration.Location = new System.Drawing.Point(3, 56);
+            this.lblDuration.Name = "lblDuration";
+            this.lblDuration.Size = new System.Drawing.Size(103, 28);
+            this.lblDuration.TabIndex = 9;
+            this.lblDuration.Text = "[duration]";
+            // 
+            // lstDescription
+            // 
+            this.lstDescription.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lstDescription.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstDescription.ForeColor = System.Drawing.Color.Black;
+            this.lstDescription.FormattingEnabled = true;
+            this.lstDescription.ItemHeight = 25;
+            this.lstDescription.Location = new System.Drawing.Point(27, 92);
+            this.lstDescription.Name = "lstDescription";
+            this.lstDescription.Size = new System.Drawing.Size(855, 154);
+            this.lstDescription.TabIndex = 6;
+            // 
+            // lblActivity
+            // 
+            this.lblActivity.AutoSize = true;
+            this.lblActivity.BackColor = System.Drawing.Color.Transparent;
+            this.lblActivity.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblActivity.ForeColor = System.Drawing.Color.White;
+            this.lblActivity.Location = new System.Drawing.Point(504, 320);
+            this.lblActivity.Name = "lblActivity";
+            this.lblActivity.Size = new System.Drawing.Size(100, 28);
+            this.lblActivity.TabIndex = 13;
+            this.lblActivity.Text = "[Activity]";
+            // 
             // Activities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -243,16 +243,16 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbxActivity);
             this.Controls.Add(this.label1);
             this.Name = "Activities";
             this.Text = "Activities";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,16 +261,16 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxActivity;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBook;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblActivity;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstDescription;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lblPrice;

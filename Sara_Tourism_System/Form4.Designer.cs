@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnPay = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNumber = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.rdb12h30 = new System.Windows.Forms.RadioButton();
+            this.rdb13 = new System.Windows.Forms.RadioButton();
+            this.rdb13h30 = new System.Windows.Forms.RadioButton();
+            this.rdb10h30 = new System.Windows.Forms.RadioButton();
+            this.rdb11 = new System.Windows.Forms.RadioButton();
+            this.rdb11h30 = new System.Windows.Forms.RadioButton();
+            this.rdb12 = new System.Windows.Forms.RadioButton();
+            this.rdb10 = new System.Windows.Forms.RadioButton();
+            this.dateBooking = new System.Windows.Forms.DateTimePicker();
+            this.cbxActivity = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,22 +53,22 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnPay);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtNumber);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.radioButton8);
-            this.groupBox1.Controls.Add(this.radioButton7);
-            this.groupBox1.Controls.Add(this.radioButton6);
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.rdb12h30);
+            this.groupBox1.Controls.Add(this.rdb13);
+            this.groupBox1.Controls.Add(this.rdb13h30);
+            this.groupBox1.Controls.Add(this.rdb10h30);
+            this.groupBox1.Controls.Add(this.rdb11);
+            this.groupBox1.Controls.Add(this.rdb11h30);
+            this.groupBox1.Controls.Add(this.rdb12);
+            this.groupBox1.Controls.Add(this.rdb10);
+            this.groupBox1.Controls.Add(this.dateBooking);
+            this.groupBox1.Controls.Add(this.cbxActivity);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(305, 29);
@@ -78,133 +78,42 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Create a Booking:";
             // 
-            // comboBox1
+            // label4
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.ForeColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(35, 108);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(299, 36);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.Text = "Select an Activity:";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(31, 701);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(197, 28);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Enter Email Address:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // dateTimePicker1
+            // txtEmail
             // 
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.LightSlateGray;
-            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.LightSlateGray;
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(35, 220);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(299, 34);
-            this.dateTimePicker1.TabIndex = 1;
+            this.txtEmail.Location = new System.Drawing.Point(36, 742);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(314, 34);
+            this.txtEmail.TabIndex = 15;
             // 
-            // radioButton1
+            // label3
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.radioButton1.FlatAppearance.BorderSize = 2;
-            this.radioButton1.Location = new System.Drawing.Point(35, 354);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(79, 32);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "10:00";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(30, 177);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(247, 28);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Select a date for booking:";
             // 
-            // radioButton2
+            // btnPay
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(242, 354);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(79, 32);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "12:00";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(36, 526);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(76, 32);
-            this.radioButton3.TabIndex = 4;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "11:30";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(35, 472);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(76, 32);
-            this.radioButton4.TabIndex = 5;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "11:00";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(35, 412);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(79, 32);
-            this.radioButton5.TabIndex = 6;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "10:30";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(242, 526);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(79, 32);
-            this.radioButton6.TabIndex = 7;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "13:30";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(242, 472);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(79, 32);
-            this.radioButton7.TabIndex = 8;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "13:00";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(242, 412);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(79, 32);
-            this.radioButton8.TabIndex = 9;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "12:30";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 301);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(336, 28);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Select from the available time slots:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(222, 633);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(104, 34);
-            this.textBox1.TabIndex = 11;
+            this.btnPay.FlatAppearance.BorderSize = 2;
+            this.btnPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPay.Location = new System.Drawing.Point(86, 822);
+            this.btnPay.Name = "btnPay";
+            this.btnPay.Size = new System.Drawing.Size(281, 48);
+            this.btnPay.TabIndex = 13;
+            this.btnPay.Text = "Pay for Booking";
+            this.btnPay.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -216,42 +125,133 @@
             this.label2.Text = "Number of People:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button1
+            // txtNumber
             // 
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(86, 822);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(281, 48);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Pay for Booking";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtNumber.Location = new System.Drawing.Point(222, 633);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(104, 34);
+            this.txtNumber.TabIndex = 11;
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 177);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(247, 28);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Select a date for booking:";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(31, 301);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(336, 28);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Select from the available time slots:";
             // 
-            // textBox2
+            // rdb12h30
             // 
-            this.textBox2.Location = new System.Drawing.Point(36, 742);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(314, 34);
-            this.textBox2.TabIndex = 15;
+            this.rdb12h30.AutoSize = true;
+            this.rdb12h30.Location = new System.Drawing.Point(242, 412);
+            this.rdb12h30.Name = "rdb12h30";
+            this.rdb12h30.Size = new System.Drawing.Size(79, 32);
+            this.rdb12h30.TabIndex = 9;
+            this.rdb12h30.TabStop = true;
+            this.rdb12h30.Text = "12:30";
+            this.rdb12h30.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // rdb13
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(31, 701);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(197, 28);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Enter Email Address:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.rdb13.AutoSize = true;
+            this.rdb13.Location = new System.Drawing.Point(242, 472);
+            this.rdb13.Name = "rdb13";
+            this.rdb13.Size = new System.Drawing.Size(79, 32);
+            this.rdb13.TabIndex = 8;
+            this.rdb13.TabStop = true;
+            this.rdb13.Text = "13:00";
+            this.rdb13.UseVisualStyleBackColor = true;
+            // 
+            // rdb13h30
+            // 
+            this.rdb13h30.AutoSize = true;
+            this.rdb13h30.Location = new System.Drawing.Point(242, 526);
+            this.rdb13h30.Name = "rdb13h30";
+            this.rdb13h30.Size = new System.Drawing.Size(79, 32);
+            this.rdb13h30.TabIndex = 7;
+            this.rdb13h30.TabStop = true;
+            this.rdb13h30.Text = "13:30";
+            this.rdb13h30.UseVisualStyleBackColor = true;
+            // 
+            // rdb10h30
+            // 
+            this.rdb10h30.AutoSize = true;
+            this.rdb10h30.Location = new System.Drawing.Point(35, 412);
+            this.rdb10h30.Name = "rdb10h30";
+            this.rdb10h30.Size = new System.Drawing.Size(79, 32);
+            this.rdb10h30.TabIndex = 6;
+            this.rdb10h30.TabStop = true;
+            this.rdb10h30.Text = "10:30";
+            this.rdb10h30.UseVisualStyleBackColor = true;
+            // 
+            // rdb11
+            // 
+            this.rdb11.AutoSize = true;
+            this.rdb11.Location = new System.Drawing.Point(35, 472);
+            this.rdb11.Name = "rdb11";
+            this.rdb11.Size = new System.Drawing.Size(76, 32);
+            this.rdb11.TabIndex = 5;
+            this.rdb11.TabStop = true;
+            this.rdb11.Text = "11:00";
+            this.rdb11.UseVisualStyleBackColor = true;
+            // 
+            // rdb11h30
+            // 
+            this.rdb11h30.AutoSize = true;
+            this.rdb11h30.Location = new System.Drawing.Point(36, 526);
+            this.rdb11h30.Name = "rdb11h30";
+            this.rdb11h30.Size = new System.Drawing.Size(76, 32);
+            this.rdb11h30.TabIndex = 4;
+            this.rdb11h30.TabStop = true;
+            this.rdb11h30.Text = "11:30";
+            this.rdb11h30.UseVisualStyleBackColor = true;
+            // 
+            // rdb12
+            // 
+            this.rdb12.AutoSize = true;
+            this.rdb12.Location = new System.Drawing.Point(242, 354);
+            this.rdb12.Name = "rdb12";
+            this.rdb12.Size = new System.Drawing.Size(79, 32);
+            this.rdb12.TabIndex = 3;
+            this.rdb12.TabStop = true;
+            this.rdb12.Text = "12:00";
+            this.rdb12.UseVisualStyleBackColor = true;
+            // 
+            // rdb10
+            // 
+            this.rdb10.AutoSize = true;
+            this.rdb10.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rdb10.FlatAppearance.BorderSize = 2;
+            this.rdb10.Location = new System.Drawing.Point(35, 354);
+            this.rdb10.Name = "rdb10";
+            this.rdb10.Size = new System.Drawing.Size(79, 32);
+            this.rdb10.TabIndex = 2;
+            this.rdb10.TabStop = true;
+            this.rdb10.Text = "10:00";
+            this.rdb10.UseVisualStyleBackColor = true;
+            // 
+            // dateBooking
+            // 
+            this.dateBooking.CalendarMonthBackground = System.Drawing.Color.LightSlateGray;
+            this.dateBooking.CalendarTitleBackColor = System.Drawing.Color.LightSlateGray;
+            this.dateBooking.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateBooking.Location = new System.Drawing.Point(35, 220);
+            this.dateBooking.Name = "dateBooking";
+            this.dateBooking.Size = new System.Drawing.Size(299, 34);
+            this.dateBooking.TabIndex = 1;
+            // 
+            // cbxActivity
+            // 
+            this.cbxActivity.BackColor = System.Drawing.Color.LightSlateGray;
+            this.cbxActivity.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxActivity.ForeColor = System.Drawing.Color.Black;
+            this.cbxActivity.FormattingEnabled = true;
+            this.cbxActivity.Location = new System.Drawing.Point(35, 108);
+            this.cbxActivity.Name = "cbxActivity";
+            this.cbxActivity.Size = new System.Drawing.Size(299, 36);
+            this.cbxActivity.TabIndex = 0;
+            this.cbxActivity.Text = "Select an Activity:";
             // 
             // Booking
             // 
@@ -273,22 +273,22 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.ComboBox cbxActivity;
+        private System.Windows.Forms.RadioButton rdb10;
+        private System.Windows.Forms.DateTimePicker dateBooking;
+        private System.Windows.Forms.RadioButton rdb12h30;
+        private System.Windows.Forms.RadioButton rdb13;
+        private System.Windows.Forms.RadioButton rdb13h30;
+        private System.Windows.Forms.RadioButton rdb10h30;
+        private System.Windows.Forms.RadioButton rdb11;
+        private System.Windows.Forms.RadioButton rdb11h30;
+        private System.Windows.Forms.RadioButton rdb12;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNumber;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPay;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }

@@ -124,6 +124,9 @@
   <data name="hidden" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\hidden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="View Review Booking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View Review Booking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Register" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,16 +139,22 @@
   <data name="Home Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Home Screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Activities Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Activities Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Activities Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Activities Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ViewReview Bookings Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ViewReview Bookings Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="View Review Booking" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\View Review Booking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Admin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Admin1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Admin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Admin3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

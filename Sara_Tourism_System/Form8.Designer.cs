@@ -31,19 +31,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnFind = new System.Windows.Forms.Button();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgCompleteBookings = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lblSelectedActivity = new System.Windows.Forms.Label();
-            this.lblSelectedDate = new System.Windows.Forms.Label();
             this.lblSelectedTourGuide = new System.Windows.Forms.Label();
+            this.lblSelectedDate = new System.Windows.Forms.Label();
+            this.lblSelectedActivity = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgCompleteBookings)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,8 +74,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.btnFind);
+            this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
@@ -85,6 +85,25 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Find Your Bookings:";
+            // 
+            // btnFind
+            // 
+            this.btnFind.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnFind.FlatAppearance.BorderSize = 2;
+            this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFind.Location = new System.Drawing.Point(503, 67);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(148, 51);
+            this.btnFind.TabIndex = 4;
+            this.btnFind.Text = "Find";
+            this.btnFind.UseVisualStyleBackColor = true;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(11, 75);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(422, 34);
+            this.txtEmail.TabIndex = 3;
             // 
             // label3
             // 
@@ -98,25 +117,6 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Email Address:";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(11, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(422, 34);
-            this.textBox1.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(503, 67);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 51);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Find";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -129,22 +129,22 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Complete Bookings:";
             // 
-            // dataGridView1
+            // dtgCompleteBookings
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(46, 302);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(872, 195);
-            this.dataGridView1.TabIndex = 6;
+            this.dtgCompleteBookings.AllowUserToAddRows = false;
+            this.dtgCompleteBookings.AllowUserToDeleteRows = false;
+            this.dtgCompleteBookings.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgCompleteBookings.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dtgCompleteBookings.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgCompleteBookings.Location = new System.Drawing.Point(46, 302);
+            this.dtgCompleteBookings.MultiSelect = false;
+            this.dtgCompleteBookings.Name = "dtgCompleteBookings";
+            this.dtgCompleteBookings.ReadOnly = true;
+            this.dtgCompleteBookings.RowHeadersWidth = 51;
+            this.dtgCompleteBookings.RowTemplate.Height = 24;
+            this.dtgCompleteBookings.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgCompleteBookings.Size = new System.Drawing.Size(872, 195);
+            this.dtgCompleteBookings.TabIndex = 6;
             // 
             // groupBox2
             // 
@@ -161,14 +161,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Selected Booking:";
             // 
-            // lblSelectedActivity
+            // lblSelectedTourGuide
             // 
-            this.lblSelectedActivity.AutoSize = true;
-            this.lblSelectedActivity.Location = new System.Drawing.Point(36, 51);
-            this.lblSelectedActivity.Name = "lblSelectedActivity";
-            this.lblSelectedActivity.Size = new System.Drawing.Size(175, 28);
-            this.lblSelectedActivity.TabIndex = 0;
-            this.lblSelectedActivity.Text = "[Selected Activity]";
+            this.lblSelectedTourGuide.AutoSize = true;
+            this.lblSelectedTourGuide.Location = new System.Drawing.Point(616, 52);
+            this.lblSelectedTourGuide.Name = "lblSelectedTourGuide";
+            this.lblSelectedTourGuide.Size = new System.Drawing.Size(209, 28);
+            this.lblSelectedTourGuide.TabIndex = 2;
+            this.lblSelectedTourGuide.Text = "[Selected Tour Guide]";
             // 
             // lblSelectedDate
             // 
@@ -179,14 +179,14 @@
             this.lblSelectedDate.TabIndex = 1;
             this.lblSelectedDate.Text = "[Selected Date]";
             // 
-            // lblSelectedTourGuide
+            // lblSelectedActivity
             // 
-            this.lblSelectedTourGuide.AutoSize = true;
-            this.lblSelectedTourGuide.Location = new System.Drawing.Point(616, 52);
-            this.lblSelectedTourGuide.Name = "lblSelectedTourGuide";
-            this.lblSelectedTourGuide.Size = new System.Drawing.Size(209, 28);
-            this.lblSelectedTourGuide.TabIndex = 2;
-            this.lblSelectedTourGuide.Text = "[Selected Tour Guide]";
+            this.lblSelectedActivity.AutoSize = true;
+            this.lblSelectedActivity.Location = new System.Drawing.Point(36, 51);
+            this.lblSelectedActivity.Name = "lblSelectedActivity";
+            this.lblSelectedActivity.Size = new System.Drawing.Size(175, 28);
+            this.lblSelectedActivity.TabIndex = 0;
+            this.lblSelectedActivity.Text = "[Selected Activity]";
             // 
             // label5
             // 
@@ -200,20 +200,20 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Warning : Deleting this booking cannot be undone";
             // 
-            // button2
+            // btnDelete
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(400, 714);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 51);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Delete Booking";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnDelete.BackColor = System.Drawing.Color.Transparent;
+            this.btnDelete.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnDelete.FlatAppearance.BorderSize = 2;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Location = new System.Drawing.Point(400, 714);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(148, 51);
+            this.btnDelete.TabIndex = 9;
+            this.btnDelete.Text = "Delete Booking";
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // Form8
             // 
@@ -222,10 +222,10 @@
             this.BackgroundImage = global::Sara_Tourism_System.Properties.Resources.Bookings_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(981, 799);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtgCompleteBookings);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
@@ -234,7 +234,7 @@
             this.Text = "Form8";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgCompleteBookings)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -247,16 +247,16 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnFind;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgCompleteBookings;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label lblSelectedTourGuide;
         private System.Windows.Forms.Label lblSelectedDate;
         private System.Windows.Forms.Label lblSelectedActivity;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnDelete;
     }
 }
