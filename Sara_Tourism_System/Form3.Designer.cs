@@ -247,6 +247,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Activities";
             this.Text = "Activities";
+            this.Load += new System.EventHandler(this.Activities_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);

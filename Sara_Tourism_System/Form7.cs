@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
+using System.Data;
 namespace Sara_Tourism_System
 {
     public partial class Reviews : Form
@@ -23,6 +24,11 @@ namespace Sara_Tourism_System
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Reviews_Load(object sender, EventArgs e)
         {
 
         }

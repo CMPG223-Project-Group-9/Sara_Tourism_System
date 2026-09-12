@@ -217,6 +217,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "ViewBookings";
             this.Text = "View Bookings";
+            this.Load += new System.EventHandler(this.ViewBookings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgBooking)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

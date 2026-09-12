@@ -38,13 +38,13 @@
             this.dtgBookingsView = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblBooking = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.lstComment = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
             this.cbxRating = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.lblSelected = new System.Windows.Forms.Label();
-            this.lblBooking = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBookingsView)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -182,6 +182,15 @@
             this.groupBox2.Text = "Write Your Review";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // lblBooking
+            // 
+            this.lblBooking.AutoSize = true;
+            this.lblBooking.Location = new System.Drawing.Point(186, 50);
+            this.lblBooking.Name = "lblBooking";
+            this.lblBooking.Size = new System.Drawing.Size(176, 28);
+            this.lblBooking.TabIndex = 8;
+            this.lblBooking.Text = "Selected booking:";
+            // 
             // btnSubmit
             // 
             this.btnSubmit.FlatAppearance.BorderColor = System.Drawing.Color.White;
@@ -245,15 +254,6 @@
             this.lblSelected.TabIndex = 0;
             this.lblSelected.Text = "Selected Booking:";
             // 
-            // lblBooking
-            // 
-            this.lblBooking.AutoSize = true;
-            this.lblBooking.Location = new System.Drawing.Point(186, 50);
-            this.lblBooking.Name = "lblBooking";
-            this.lblBooking.Size = new System.Drawing.Size(176, 28);
-            this.lblBooking.TabIndex = 8;
-            this.lblBooking.Text = "Selected booking:";
-            // 
             // Reviews
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -270,6 +270,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Reviews";
             this.Text = "Reviews";
+            this.Load += new System.EventHandler(this.Reviews_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBookingsView)).EndInit();

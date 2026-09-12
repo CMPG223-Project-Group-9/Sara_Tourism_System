@@ -161,6 +161,7 @@
             this.Controls.Add(this.dtgBookingsView);
             this.Name = "EditBooking";
             this.Text = "Edit Booking";
+            this.Load += new System.EventHandler(this.EditBooking_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgBookingsView)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
