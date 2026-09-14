@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -95,79 +95,79 @@
             this.txtActivitySearch = new System.Windows.Forms.TextBox();
             this.dtgActivity = new System.Windows.Forms.DataGridView();
             this.Tourists = new System.Windows.Forms.TabPage();
-            this.Bookings = new System.Windows.Forms.TabPage();
-            this.Guides = new System.Windows.Forms.TabPage();
-            this.Reports = new System.Windows.Forms.TabPage();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.lblsearchtour = new System.Windows.Forms.Label();
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.dtgTourist = new System.Windows.Forms.DataGridView();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.lblIDhead = new System.Windows.Forms.Label();
-            this.lblTouristID = new System.Windows.Forms.Label();
-            this.lblFName = new System.Windows.Forms.Label();
-            this.lblSname = new System.Windows.Forms.Label();
-            this.lblEmailAdd = new System.Windows.Forms.Label();
-            this.lblDOb = new System.Windows.Forms.Label();
-            this.lblPass = new System.Windows.Forms.Label();
-            this.txtname = new System.Windows.Forms.TextBox();
-            this.txtSurname = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.dateTourist = new System.Windows.Forms.DateTimePicker();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.btnUpdateTourist = new System.Windows.Forms.Button();
-            this.btnDeleteTourist = new System.Windows.Forms.Button();
             this.btnClearTourist = new System.Windows.Forms.Button();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.btnDeleteTourist = new System.Windows.Forms.Button();
+            this.btnUpdateTourist = new System.Windows.Forms.Button();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.dateTourist = new System.Windows.Forms.DateTimePicker();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtSurname = new System.Windows.Forms.TextBox();
+            this.txtname = new System.Windows.Forms.TextBox();
+            this.lblPass = new System.Windows.Forms.Label();
+            this.lblDOb = new System.Windows.Forms.Label();
+            this.lblEmailAdd = new System.Windows.Forms.Label();
+            this.lblSname = new System.Windows.Forms.Label();
+            this.lblFName = new System.Windows.Forms.Label();
+            this.lblTouristID = new System.Windows.Forms.Label();
+            this.lblIDhead = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.dtgTourist = new System.Windows.Forms.DataGridView();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.lblsearchtour = new System.Windows.Forms.Label();
+            this.Bookings = new System.Windows.Forms.TabPage();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.dtgBookings = new System.Windows.Forms.DataGridView();
-            this.lblBookID = new System.Windows.Forms.Label();
-            this.lblID = new System.Windows.Forms.Label();
-            this.lblTourist = new System.Windows.Forms.Label();
-            this.txtTourist = new System.Windows.Forms.TextBox();
-            this.lblActivity = new System.Windows.Forms.Label();
-            this.cbxActivity = new System.Windows.Forms.ComboBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.cbxStatus = new System.Windows.Forms.ComboBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.cbxTourGuide = new System.Windows.Forms.ComboBox();
-            this.btnUpdateBook = new System.Windows.Forms.Button();
             this.btnDeleteBook = new System.Windows.Forms.Button();
-            this.lblSearchTourGuide = new System.Windows.Forms.Label();
-            this.txtTourGuide = new System.Windows.Forms.TextBox();
-            this.dtgTourGuide = new System.Windows.Forms.DataGridView();
-            this.btnAddGuide = new System.Windows.Forms.Button();
+            this.btnUpdateBook = new System.Windows.Forms.Button();
+            this.cbxTourGuide = new System.Windows.Forms.ComboBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.cbxStatus = new System.Windows.Forms.ComboBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label28 = new System.Windows.Forms.Label();
+            this.cbxActivity = new System.Windows.Forms.ComboBox();
+            this.lblActivity = new System.Windows.Forms.Label();
+            this.txtTourist = new System.Windows.Forms.TextBox();
+            this.lblTourist = new System.Windows.Forms.Label();
+            this.lblID = new System.Windows.Forms.Label();
+            this.lblBookID = new System.Windows.Forms.Label();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.dtgBookings = new System.Windows.Forms.DataGridView();
+            this.Guides = new System.Windows.Forms.TabPage();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.lblGuideName = new System.Windows.Forms.Label();
-            this.txtNameGuide = new System.Windows.Forms.TextBox();
-            this.lblSpecial = new System.Windows.Forms.Label();
-            this.cbxSpecialization = new System.Windows.Forms.ComboBox();
-            this.btnGUpdate = new System.Windows.Forms.Button();
-            this.btnGClear = new System.Windows.Forms.Button();
             this.btnGDelete = new System.Windows.Forms.Button();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.lblType = new System.Windows.Forms.Label();
-            this.cbxReportType = new System.Windows.Forms.ComboBox();
-            this.lblFrom = new System.Windows.Forms.Label();
-            this.lblTo = new System.Windows.Forms.Label();
-            this.dateFrom = new System.Windows.Forms.DateTimePicker();
-            this.dateTo = new System.Windows.Forms.DateTimePicker();
-            this.btnGenerate = new System.Windows.Forms.Button();
-            this.grpSort = new System.Windows.Forms.GroupBox();
-            this.rdbAscending = new System.Windows.Forms.RadioButton();
-            this.rdbDescending = new System.Windows.Forms.RadioButton();
+            this.btnGClear = new System.Windows.Forms.Button();
+            this.btnGUpdate = new System.Windows.Forms.Button();
+            this.cbxSpecialization = new System.Windows.Forms.ComboBox();
+            this.lblSpecial = new System.Windows.Forms.Label();
+            this.txtNameGuide = new System.Windows.Forms.TextBox();
+            this.lblGuideName = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.btnAddGuide = new System.Windows.Forms.Button();
+            this.dtgTourGuide = new System.Windows.Forms.DataGridView();
+            this.txtTourGuide = new System.Windows.Forms.TextBox();
+            this.lblSearchTourGuide = new System.Windows.Forms.Label();
+            this.Reports = new System.Windows.Forms.TabPage();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.grpSort = new System.Windows.Forms.GroupBox();
+            this.rdbDescending = new System.Windows.Forms.RadioButton();
+            this.rdbAscending = new System.Windows.Forms.RadioButton();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.btnGenerate = new System.Windows.Forms.Button();
+            this.dateTo = new System.Windows.Forms.DateTimePicker();
+            this.dateFrom = new System.Windows.Forms.DateTimePicker();
+            this.lblTo = new System.Windows.Forms.Label();
+            this.lblFrom = new System.Windows.Forms.Label();
+            this.cbxReportType = new System.Windows.Forms.ComboBox();
+            this.lblType = new System.Windows.Forms.Label();
             this.pnlHeader.SuspendLayout();
             this.pnlSidebar.SuspendLayout();
             this.tabAdmin.SuspendLayout();
@@ -186,20 +186,20 @@
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgActivity)).BeginInit();
             this.Tourists.SuspendLayout();
-            this.Bookings.SuspendLayout();
-            this.Guides.SuspendLayout();
-            this.Reports.SuspendLayout();
-            this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
+            this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgTourist)).BeginInit();
-            this.groupBox10.SuspendLayout();
+            this.Bookings.SuspendLayout();
             this.groupBox11.SuspendLayout();
+            this.groupBox10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBookings)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgTourGuide)).BeginInit();
+            this.Guides.SuspendLayout();
             this.groupBox12.SuspendLayout();
-            this.groupBox13.SuspendLayout();
-            this.grpSort.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgTourGuide)).BeginInit();
+            this.Reports.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.grpSort.SuspendLayout();
+            this.groupBox13.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -273,6 +273,7 @@
             this.btnLogout.TabIndex = 6;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnReports
             // 
@@ -288,6 +289,7 @@
             this.btnReports.TabIndex = 5;
             this.btnReports.Text = "Reports";
             this.btnReports.UseVisualStyleBackColor = false;
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             // 
             // btnTourGuidesTab
             // 
@@ -303,6 +305,7 @@
             this.btnTourGuidesTab.TabIndex = 4;
             this.btnTourGuidesTab.Text = "Guides";
             this.btnTourGuidesTab.UseVisualStyleBackColor = false;
+            this.btnTourGuidesTab.Click += new System.EventHandler(this.btnTourGuidesTab_Click);
             // 
             // btnBookingsTab
             // 
@@ -318,6 +321,7 @@
             this.btnBookingsTab.TabIndex = 3;
             this.btnBookingsTab.Text = "Bookings";
             this.btnBookingsTab.UseVisualStyleBackColor = false;
+            this.btnBookingsTab.Click += new System.EventHandler(this.btnBookingsTab_Click);
             // 
             // btnTourists
             // 
@@ -333,6 +337,7 @@
             this.btnTourists.TabIndex = 2;
             this.btnTourists.Text = "Tourists";
             this.btnTourists.UseVisualStyleBackColor = false;
+            this.btnTourists.Click += new System.EventHandler(this.btnTourists_Click);
             // 
             // btnActivities
             // 
@@ -348,6 +353,7 @@
             this.btnActivities.TabIndex = 1;
             this.btnActivities.Text = "Activities";
             this.btnActivities.UseVisualStyleBackColor = false;
+            this.btnActivities.Click += new System.EventHandler(this.btnActivities_Click);
             // 
             // btnDashboard
             // 
@@ -363,6 +369,7 @@
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.UseVisualStyleBackColor = false;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // tabAdmin
             // 
@@ -399,7 +406,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.groupBox5.BackColor = System.Drawing.Color.Transparent;
             this.groupBox5.Controls.Add(this.panel2);
             this.groupBox5.Controls.Add(this.panel3);
             this.groupBox5.Controls.Add(this.panel1);
@@ -498,7 +505,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.lblTouristCount);
             this.groupBox4.ForeColor = System.Drawing.Color.White;
             this.groupBox4.Location = new System.Drawing.Point(31, 244);
@@ -519,7 +526,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.lblBookingCount);
             this.groupBox3.ForeColor = System.Drawing.Color.White;
             this.groupBox3.Location = new System.Drawing.Point(646, 66);
@@ -541,7 +548,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.lblGuideCount);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(339, 66);
@@ -562,7 +569,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.lblActivityCount);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(31, 66);
@@ -868,6 +875,7 @@
             this.txtActivitySearch.Name = "txtActivitySearch";
             this.txtActivitySearch.Size = new System.Drawing.Size(250, 34);
             this.txtActivitySearch.TabIndex = 1;
+            this.txtActivitySearch.TextChanged += new System.EventHandler(this.txtActivitySearch_TextChanged);
             // 
             // dtgActivity
             // 
@@ -878,6 +886,8 @@
             this.dtgActivity.RowTemplate.Height = 24;
             this.dtgActivity.Size = new System.Drawing.Size(486, 150);
             this.dtgActivity.TabIndex = 0;
+            this.dtgActivity.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgActivity_CellClick);
+            this.dtgActivity.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgActivity_CellContentClick);
             // 
             // Tourists
             // 
@@ -889,56 +899,6 @@
             this.Tourists.Size = new System.Drawing.Size(905, 777);
             this.Tourists.TabIndex = 2;
             this.Tourists.Text = "Maintain Tourists";
-            // 
-            // Bookings
-            // 
-            this.Bookings.BackColor = System.Drawing.Color.White;
-            this.Bookings.Controls.Add(this.groupBox11);
-            this.Bookings.Controls.Add(this.groupBox10);
-            this.Bookings.Location = new System.Drawing.Point(4, 37);
-            this.Bookings.Name = "Bookings";
-            this.Bookings.Size = new System.Drawing.Size(905, 777);
-            this.Bookings.TabIndex = 3;
-            this.Bookings.Text = "Maintain Bookings";
-            // 
-            // Guides
-            // 
-            this.Guides.BackColor = System.Drawing.Color.White;
-            this.Guides.Controls.Add(this.groupBox12);
-            this.Guides.Controls.Add(this.btnAddGuide);
-            this.Guides.Controls.Add(this.dtgTourGuide);
-            this.Guides.Controls.Add(this.txtTourGuide);
-            this.Guides.Controls.Add(this.lblSearchTourGuide);
-            this.Guides.Location = new System.Drawing.Point(4, 37);
-            this.Guides.Name = "Guides";
-            this.Guides.Size = new System.Drawing.Size(905, 777);
-            this.Guides.TabIndex = 4;
-            this.Guides.Text = "Maintain Tour Guides";
-            // 
-            // Reports
-            // 
-            this.Reports.BackColor = System.Drawing.Color.White;
-            this.Reports.Controls.Add(this.chart1);
-            this.Reports.Controls.Add(this.grpSort);
-            this.Reports.Controls.Add(this.groupBox13);
-            this.Reports.Location = new System.Drawing.Point(4, 37);
-            this.Reports.Name = "Reports";
-            this.Reports.Size = new System.Drawing.Size(905, 777);
-            this.Reports.TabIndex = 5;
-            this.Reports.Text = "Request Reports";
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.btnAdd);
-            this.groupBox8.Controls.Add(this.dtgTourist);
-            this.groupBox8.Controls.Add(this.txtSearch);
-            this.groupBox8.Controls.Add(this.lblsearchtour);
-            this.groupBox8.Location = new System.Drawing.Point(4, 3);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(456, 771);
-            this.groupBox8.TabIndex = 0;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Search Tourist";
             // 
             // groupBox9
             // 
@@ -964,21 +924,153 @@
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Tourist Details";
             // 
-            // lblsearchtour
+            // btnClearTourist
             // 
-            this.lblsearchtour.AutoSize = true;
-            this.lblsearchtour.Location = new System.Drawing.Point(7, 51);
-            this.lblsearchtour.Name = "lblsearchtour";
-            this.lblsearchtour.Size = new System.Drawing.Size(77, 28);
-            this.lblsearchtour.TabIndex = 0;
-            this.lblsearchtour.Text = "Search:";
+            this.btnClearTourist.Location = new System.Drawing.Point(19, 685);
+            this.btnClearTourist.Name = "btnClearTourist";
+            this.btnClearTourist.Size = new System.Drawing.Size(129, 44);
+            this.btnClearTourist.TabIndex = 13;
+            this.btnClearTourist.Text = "Clear";
+            this.btnClearTourist.UseVisualStyleBackColor = true;
             // 
-            // txtSearch
+            // btnDeleteTourist
             // 
-            this.txtSearch.Location = new System.Drawing.Point(111, 51);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(327, 34);
-            this.txtSearch.TabIndex = 1;
+            this.btnDeleteTourist.Location = new System.Drawing.Point(19, 616);
+            this.btnDeleteTourist.Name = "btnDeleteTourist";
+            this.btnDeleteTourist.Size = new System.Drawing.Size(129, 44);
+            this.btnDeleteTourist.TabIndex = 12;
+            this.btnDeleteTourist.Text = "Delete";
+            this.btnDeleteTourist.UseVisualStyleBackColor = true;
+            // 
+            // btnUpdateTourist
+            // 
+            this.btnUpdateTourist.Location = new System.Drawing.Point(19, 553);
+            this.btnUpdateTourist.Name = "btnUpdateTourist";
+            this.btnUpdateTourist.Size = new System.Drawing.Size(129, 44);
+            this.btnUpdateTourist.TabIndex = 4;
+            this.btnUpdateTourist.Text = "Update";
+            this.btnUpdateTourist.UseVisualStyleBackColor = true;
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(212, 418);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(188, 34);
+            this.txtPassword.TabIndex = 11;
+            // 
+            // dateTourist
+            // 
+            this.dateTourist.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTourist.Location = new System.Drawing.Point(200, 328);
+            this.dateTourist.Name = "dateTourist";
+            this.dateTourist.Size = new System.Drawing.Size(200, 34);
+            this.dateTourist.TabIndex = 10;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(156, 252);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(244, 34);
+            this.txtEmail.TabIndex = 9;
+            // 
+            // txtSurname
+            // 
+            this.txtSurname.Location = new System.Drawing.Point(212, 179);
+            this.txtSurname.Name = "txtSurname";
+            this.txtSurname.Size = new System.Drawing.Size(188, 34);
+            this.txtSurname.TabIndex = 8;
+            // 
+            // txtname
+            // 
+            this.txtname.Location = new System.Drawing.Point(212, 114);
+            this.txtname.Name = "txtname";
+            this.txtname.Size = new System.Drawing.Size(188, 34);
+            this.txtname.TabIndex = 4;
+            // 
+            // lblPass
+            // 
+            this.lblPass.AutoSize = true;
+            this.lblPass.Location = new System.Drawing.Point(28, 421);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(102, 28);
+            this.lblPass.TabIndex = 7;
+            this.lblPass.Text = "Password:";
+            // 
+            // lblDOb
+            // 
+            this.lblDOb.AutoSize = true;
+            this.lblDOb.Location = new System.Drawing.Point(28, 334);
+            this.lblDOb.Name = "lblDOb";
+            this.lblDOb.Size = new System.Drawing.Size(137, 28);
+            this.lblDOb.TabIndex = 6;
+            this.lblDOb.Text = "Date Of Birth:";
+            // 
+            // lblEmailAdd
+            // 
+            this.lblEmailAdd.AutoSize = true;
+            this.lblEmailAdd.Location = new System.Drawing.Point(28, 258);
+            this.lblEmailAdd.Name = "lblEmailAdd";
+            this.lblEmailAdd.Size = new System.Drawing.Size(65, 28);
+            this.lblEmailAdd.TabIndex = 5;
+            this.lblEmailAdd.Text = "Email:";
+            // 
+            // lblSname
+            // 
+            this.lblSname.AutoSize = true;
+            this.lblSname.Location = new System.Drawing.Point(28, 185);
+            this.lblSname.Name = "lblSname";
+            this.lblSname.Size = new System.Drawing.Size(98, 28);
+            this.lblSname.TabIndex = 4;
+            this.lblSname.Text = "Surname:";
+            // 
+            // lblFName
+            // 
+            this.lblFName.AutoSize = true;
+            this.lblFName.Location = new System.Drawing.Point(28, 120);
+            this.lblFName.Name = "lblFName";
+            this.lblFName.Size = new System.Drawing.Size(71, 28);
+            this.lblFName.TabIndex = 3;
+            this.lblFName.Text = "Name:";
+            // 
+            // lblTouristID
+            // 
+            this.lblTouristID.AutoSize = true;
+            this.lblTouristID.Location = new System.Drawing.Point(207, 50);
+            this.lblTouristID.Name = "lblTouristID";
+            this.lblTouristID.Size = new System.Drawing.Size(107, 28);
+            this.lblTouristID.TabIndex = 2;
+            this.lblTouristID.Text = "[TouristID]";
+            // 
+            // lblIDhead
+            // 
+            this.lblIDhead.AutoSize = true;
+            this.lblIDhead.Location = new System.Drawing.Point(28, 47);
+            this.lblIDhead.Name = "lblIDhead";
+            this.lblIDhead.Size = new System.Drawing.Size(37, 28);
+            this.lblIDhead.TabIndex = 1;
+            this.lblIDhead.Text = "ID:";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.btnAdd);
+            this.groupBox8.Controls.Add(this.dtgTourist);
+            this.groupBox8.Controls.Add(this.txtSearch);
+            this.groupBox8.Controls.Add(this.lblsearchtour);
+            this.groupBox8.Location = new System.Drawing.Point(4, 3);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(456, 771);
+            this.groupBox8.TabIndex = 0;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Search Tourist";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(12, 428);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(129, 44);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Add Tourist";
+            this.btnAdd.UseVisualStyleBackColor = true;
             // 
             // dtgTourist
             // 
@@ -991,150 +1083,32 @@
             this.dtgTourist.Size = new System.Drawing.Size(426, 221);
             this.dtgTourist.TabIndex = 2;
             // 
-            // btnAdd
+            // txtSearch
             // 
-            this.btnAdd.Location = new System.Drawing.Point(12, 428);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(129, 44);
-            this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "Add Tourist";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.txtSearch.Location = new System.Drawing.Point(111, 51);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(327, 34);
+            this.txtSearch.TabIndex = 1;
             // 
-            // lblIDhead
+            // lblsearchtour
             // 
-            this.lblIDhead.AutoSize = true;
-            this.lblIDhead.Location = new System.Drawing.Point(28, 47);
-            this.lblIDhead.Name = "lblIDhead";
-            this.lblIDhead.Size = new System.Drawing.Size(37, 28);
-            this.lblIDhead.TabIndex = 1;
-            this.lblIDhead.Text = "ID:";
+            this.lblsearchtour.AutoSize = true;
+            this.lblsearchtour.Location = new System.Drawing.Point(7, 51);
+            this.lblsearchtour.Name = "lblsearchtour";
+            this.lblsearchtour.Size = new System.Drawing.Size(77, 28);
+            this.lblsearchtour.TabIndex = 0;
+            this.lblsearchtour.Text = "Search:";
             // 
-            // lblTouristID
+            // Bookings
             // 
-            this.lblTouristID.AutoSize = true;
-            this.lblTouristID.Location = new System.Drawing.Point(207, 50);
-            this.lblTouristID.Name = "lblTouristID";
-            this.lblTouristID.Size = new System.Drawing.Size(107, 28);
-            this.lblTouristID.TabIndex = 2;
-            this.lblTouristID.Text = "[TouristID]";
-            // 
-            // lblFName
-            // 
-            this.lblFName.AutoSize = true;
-            this.lblFName.Location = new System.Drawing.Point(28, 120);
-            this.lblFName.Name = "lblFName";
-            this.lblFName.Size = new System.Drawing.Size(71, 28);
-            this.lblFName.TabIndex = 3;
-            this.lblFName.Text = "Name:";
-            // 
-            // lblSname
-            // 
-            this.lblSname.AutoSize = true;
-            this.lblSname.Location = new System.Drawing.Point(28, 185);
-            this.lblSname.Name = "lblSname";
-            this.lblSname.Size = new System.Drawing.Size(98, 28);
-            this.lblSname.TabIndex = 4;
-            this.lblSname.Text = "Surname:";
-            // 
-            // lblEmailAdd
-            // 
-            this.lblEmailAdd.AutoSize = true;
-            this.lblEmailAdd.Location = new System.Drawing.Point(28, 258);
-            this.lblEmailAdd.Name = "lblEmailAdd";
-            this.lblEmailAdd.Size = new System.Drawing.Size(65, 28);
-            this.lblEmailAdd.TabIndex = 5;
-            this.lblEmailAdd.Text = "Email:";
-            // 
-            // lblDOb
-            // 
-            this.lblDOb.AutoSize = true;
-            this.lblDOb.Location = new System.Drawing.Point(28, 334);
-            this.lblDOb.Name = "lblDOb";
-            this.lblDOb.Size = new System.Drawing.Size(137, 28);
-            this.lblDOb.TabIndex = 6;
-            this.lblDOb.Text = "Date Of Birth:";
-            // 
-            // lblPass
-            // 
-            this.lblPass.AutoSize = true;
-            this.lblPass.Location = new System.Drawing.Point(28, 421);
-            this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(102, 28);
-            this.lblPass.TabIndex = 7;
-            this.lblPass.Text = "Password:";
-            // 
-            // txtname
-            // 
-            this.txtname.Location = new System.Drawing.Point(212, 114);
-            this.txtname.Name = "txtname";
-            this.txtname.Size = new System.Drawing.Size(188, 34);
-            this.txtname.TabIndex = 4;
-            // 
-            // txtSurname
-            // 
-            this.txtSurname.Location = new System.Drawing.Point(212, 179);
-            this.txtSurname.Name = "txtSurname";
-            this.txtSurname.Size = new System.Drawing.Size(188, 34);
-            this.txtSurname.TabIndex = 8;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(156, 252);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(244, 34);
-            this.txtEmail.TabIndex = 9;
-            // 
-            // dateTourist
-            // 
-            this.dateTourist.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTourist.Location = new System.Drawing.Point(200, 328);
-            this.dateTourist.Name = "dateTourist";
-            this.dateTourist.Size = new System.Drawing.Size(200, 34);
-            this.dateTourist.TabIndex = 10;
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.Location = new System.Drawing.Point(212, 418);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(188, 34);
-            this.txtPassword.TabIndex = 11;
-            // 
-            // btnUpdateTourist
-            // 
-            this.btnUpdateTourist.Location = new System.Drawing.Point(19, 553);
-            this.btnUpdateTourist.Name = "btnUpdateTourist";
-            this.btnUpdateTourist.Size = new System.Drawing.Size(129, 44);
-            this.btnUpdateTourist.TabIndex = 4;
-            this.btnUpdateTourist.Text = "Update";
-            this.btnUpdateTourist.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteTourist
-            // 
-            this.btnDeleteTourist.Location = new System.Drawing.Point(19, 616);
-            this.btnDeleteTourist.Name = "btnDeleteTourist";
-            this.btnDeleteTourist.Size = new System.Drawing.Size(129, 44);
-            this.btnDeleteTourist.TabIndex = 12;
-            this.btnDeleteTourist.Text = "Delete";
-            this.btnDeleteTourist.UseVisualStyleBackColor = true;
-            // 
-            // btnClearTourist
-            // 
-            this.btnClearTourist.Location = new System.Drawing.Point(19, 685);
-            this.btnClearTourist.Name = "btnClearTourist";
-            this.btnClearTourist.Size = new System.Drawing.Size(129, 44);
-            this.btnClearTourist.TabIndex = 13;
-            this.btnClearTourist.Text = "Clear";
-            this.btnClearTourist.UseVisualStyleBackColor = true;
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.dtgBookings);
-            this.groupBox10.Location = new System.Drawing.Point(4, 3);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(439, 771);
-            this.groupBox10.TabIndex = 0;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Booking List";
+            this.Bookings.BackColor = System.Drawing.Color.White;
+            this.Bookings.Controls.Add(this.groupBox11);
+            this.Bookings.Controls.Add(this.groupBox10);
+            this.Bookings.Location = new System.Drawing.Point(4, 37);
+            this.Bookings.Name = "Bookings";
+            this.Bookings.Size = new System.Drawing.Size(905, 777);
+            this.Bookings.TabIndex = 3;
+            this.Bookings.Text = "Maintain Bookings";
             // 
             // groupBox11
             // 
@@ -1165,177 +1139,6 @@
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Booking Details";
             // 
-            // dtgBookings
-            // 
-            this.dtgBookings.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgBookings.Location = new System.Drawing.Point(7, 62);
-            this.dtgBookings.Name = "dtgBookings";
-            this.dtgBookings.RowHeadersWidth = 51;
-            this.dtgBookings.RowTemplate.Height = 24;
-            this.dtgBookings.Size = new System.Drawing.Size(416, 181);
-            this.dtgBookings.TabIndex = 0;
-            // 
-            // lblBookID
-            // 
-            this.lblBookID.AutoSize = true;
-            this.lblBookID.Location = new System.Drawing.Point(7, 44);
-            this.lblBookID.Name = "lblBookID";
-            this.lblBookID.Size = new System.Drawing.Size(119, 28);
-            this.lblBookID.TabIndex = 0;
-            this.lblBookID.Text = "Booking ID:";
-            // 
-            // lblID
-            // 
-            this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(135, 44);
-            this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(46, 28);
-            this.lblID.TabIndex = 1;
-            this.lblID.Text = "[ID]";
-            // 
-            // lblTourist
-            // 
-            this.lblTourist.AutoSize = true;
-            this.lblTourist.Location = new System.Drawing.Point(12, 100);
-            this.lblTourist.Name = "lblTourist";
-            this.lblTourist.Size = new System.Drawing.Size(78, 28);
-            this.lblTourist.TabIndex = 2;
-            this.lblTourist.Text = "Tourist:";
-            // 
-            // txtTourist
-            // 
-            this.txtTourist.Location = new System.Drawing.Point(140, 94);
-            this.txtTourist.Name = "txtTourist";
-            this.txtTourist.Size = new System.Drawing.Size(271, 34);
-            this.txtTourist.TabIndex = 3;
-            // 
-            // lblActivity
-            // 
-            this.lblActivity.AutoSize = true;
-            this.lblActivity.Location = new System.Drawing.Point(12, 164);
-            this.lblActivity.Name = "lblActivity";
-            this.lblActivity.Size = new System.Drawing.Size(83, 28);
-            this.lblActivity.TabIndex = 4;
-            this.lblActivity.Text = "Activity:";
-            // 
-            // cbxActivity
-            // 
-            this.cbxActivity.FormattingEnabled = true;
-            this.cbxActivity.Location = new System.Drawing.Point(140, 161);
-            this.cbxActivity.Name = "cbxActivity";
-            this.cbxActivity.Size = new System.Drawing.Size(271, 36);
-            this.cbxActivity.TabIndex = 5;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(12, 249);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(141, 28);
-            this.label28.TabIndex = 6;
-            this.label28.Text = "Booking Date:";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(211, 243);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 34);
-            this.dateTimePicker1.TabIndex = 7;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(12, 311);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(110, 28);
-            this.label29.TabIndex = 8;
-            this.label29.Text = "Start Time:";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(211, 311);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 34);
-            this.textBox8.TabIndex = 9;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(12, 375);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(185, 28);
-            this.label30.TabIndex = 10;
-            this.label30.Text = "Number of People:";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(211, 369);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 34);
-            this.textBox9.TabIndex = 11;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(13, 433);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(140, 28);
-            this.label31.TabIndex = 12;
-            this.label31.Text = "Total Amount:";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(205, 433);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(149, 28);
-            this.label32.TabIndex = 13;
-            this.label32.Text = "[Total Amount]";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(13, 498);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(157, 28);
-            this.label33.TabIndex = 14;
-            this.label33.Text = "Payment Status:";
-            // 
-            // cbxStatus
-            // 
-            this.cbxStatus.FormattingEnabled = true;
-            this.cbxStatus.Location = new System.Drawing.Point(187, 490);
-            this.cbxStatus.Name = "cbxStatus";
-            this.cbxStatus.Size = new System.Drawing.Size(183, 36);
-            this.cbxStatus.TabIndex = 15;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(13, 566);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(117, 28);
-            this.label34.TabIndex = 16;
-            this.label34.Text = "Tour Guide:";
-            // 
-            // cbxTourGuide
-            // 
-            this.cbxTourGuide.FormattingEnabled = true;
-            this.cbxTourGuide.Location = new System.Drawing.Point(187, 558);
-            this.cbxTourGuide.Name = "cbxTourGuide";
-            this.cbxTourGuide.Size = new System.Drawing.Size(183, 36);
-            this.cbxTourGuide.TabIndex = 17;
-            // 
-            // btnUpdateBook
-            // 
-            this.btnUpdateBook.Location = new System.Drawing.Point(12, 659);
-            this.btnUpdateBook.Name = "btnUpdateBook";
-            this.btnUpdateBook.Size = new System.Drawing.Size(124, 43);
-            this.btnUpdateBook.TabIndex = 19;
-            this.btnUpdateBook.Text = "Update";
-            this.btnUpdateBook.UseVisualStyleBackColor = true;
-            // 
             // btnDeleteBook
             // 
             this.btnDeleteBook.Location = new System.Drawing.Point(154, 659);
@@ -1346,40 +1149,200 @@
             this.btnDeleteBook.UseVisualStyleBackColor = true;
             this.btnDeleteBook.Click += new System.EventHandler(this.button18_Click);
             // 
-            // lblSearchTourGuide
+            // btnUpdateBook
             // 
-            this.lblSearchTourGuide.AutoSize = true;
-            this.lblSearchTourGuide.Location = new System.Drawing.Point(19, 47);
-            this.lblSearchTourGuide.Name = "lblSearchTourGuide";
-            this.lblSearchTourGuide.Size = new System.Drawing.Size(183, 28);
-            this.lblSearchTourGuide.TabIndex = 0;
-            this.lblSearchTourGuide.Text = "Search Tour Guide:";
+            this.btnUpdateBook.Location = new System.Drawing.Point(12, 659);
+            this.btnUpdateBook.Name = "btnUpdateBook";
+            this.btnUpdateBook.Size = new System.Drawing.Size(124, 43);
+            this.btnUpdateBook.TabIndex = 19;
+            this.btnUpdateBook.Text = "Update";
+            this.btnUpdateBook.UseVisualStyleBackColor = true;
             // 
-            // txtTourGuide
+            // cbxTourGuide
             // 
-            this.txtTourGuide.Location = new System.Drawing.Point(24, 79);
-            this.txtTourGuide.Name = "txtTourGuide";
-            this.txtTourGuide.Size = new System.Drawing.Size(284, 34);
-            this.txtTourGuide.TabIndex = 1;
+            this.cbxTourGuide.FormattingEnabled = true;
+            this.cbxTourGuide.Location = new System.Drawing.Point(187, 558);
+            this.cbxTourGuide.Name = "cbxTourGuide";
+            this.cbxTourGuide.Size = new System.Drawing.Size(183, 36);
+            this.cbxTourGuide.TabIndex = 17;
             // 
-            // dtgTourGuide
+            // label34
             // 
-            this.dtgTourGuide.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgTourGuide.Location = new System.Drawing.Point(24, 148);
-            this.dtgTourGuide.Name = "dtgTourGuide";
-            this.dtgTourGuide.RowHeadersWidth = 51;
-            this.dtgTourGuide.RowTemplate.Height = 24;
-            this.dtgTourGuide.Size = new System.Drawing.Size(520, 150);
-            this.dtgTourGuide.TabIndex = 2;
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(13, 566);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(117, 28);
+            this.label34.TabIndex = 16;
+            this.label34.Text = "Tour Guide:";
             // 
-            // btnAddGuide
+            // cbxStatus
             // 
-            this.btnAddGuide.Location = new System.Drawing.Point(24, 329);
-            this.btnAddGuide.Name = "btnAddGuide";
-            this.btnAddGuide.Size = new System.Drawing.Size(190, 34);
-            this.btnAddGuide.TabIndex = 3;
-            this.btnAddGuide.Text = "Add Tour Guide";
-            this.btnAddGuide.UseVisualStyleBackColor = true;
+            this.cbxStatus.FormattingEnabled = true;
+            this.cbxStatus.Location = new System.Drawing.Point(187, 490);
+            this.cbxStatus.Name = "cbxStatus";
+            this.cbxStatus.Size = new System.Drawing.Size(183, 36);
+            this.cbxStatus.TabIndex = 15;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(13, 498);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(157, 28);
+            this.label33.TabIndex = 14;
+            this.label33.Text = "Payment Status:";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(205, 433);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(149, 28);
+            this.label32.TabIndex = 13;
+            this.label32.Text = "[Total Amount]";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(13, 433);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(140, 28);
+            this.label31.TabIndex = 12;
+            this.label31.Text = "Total Amount:";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(211, 369);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 34);
+            this.textBox9.TabIndex = 11;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(12, 375);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(185, 28);
+            this.label30.TabIndex = 10;
+            this.label30.Text = "Number of People:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(211, 311);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 34);
+            this.textBox8.TabIndex = 9;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(12, 311);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(110, 28);
+            this.label29.TabIndex = 8;
+            this.label29.Text = "Start Time:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(211, 243);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 34);
+            this.dateTimePicker1.TabIndex = 7;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(12, 249);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(141, 28);
+            this.label28.TabIndex = 6;
+            this.label28.Text = "Booking Date:";
+            // 
+            // cbxActivity
+            // 
+            this.cbxActivity.FormattingEnabled = true;
+            this.cbxActivity.Location = new System.Drawing.Point(140, 161);
+            this.cbxActivity.Name = "cbxActivity";
+            this.cbxActivity.Size = new System.Drawing.Size(271, 36);
+            this.cbxActivity.TabIndex = 5;
+            // 
+            // lblActivity
+            // 
+            this.lblActivity.AutoSize = true;
+            this.lblActivity.Location = new System.Drawing.Point(12, 164);
+            this.lblActivity.Name = "lblActivity";
+            this.lblActivity.Size = new System.Drawing.Size(83, 28);
+            this.lblActivity.TabIndex = 4;
+            this.lblActivity.Text = "Activity:";
+            // 
+            // txtTourist
+            // 
+            this.txtTourist.Location = new System.Drawing.Point(140, 94);
+            this.txtTourist.Name = "txtTourist";
+            this.txtTourist.Size = new System.Drawing.Size(271, 34);
+            this.txtTourist.TabIndex = 3;
+            // 
+            // lblTourist
+            // 
+            this.lblTourist.AutoSize = true;
+            this.lblTourist.Location = new System.Drawing.Point(12, 100);
+            this.lblTourist.Name = "lblTourist";
+            this.lblTourist.Size = new System.Drawing.Size(78, 28);
+            this.lblTourist.TabIndex = 2;
+            this.lblTourist.Text = "Tourist:";
+            // 
+            // lblID
+            // 
+            this.lblID.AutoSize = true;
+            this.lblID.Location = new System.Drawing.Point(135, 44);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(46, 28);
+            this.lblID.TabIndex = 1;
+            this.lblID.Text = "[ID]";
+            // 
+            // lblBookID
+            // 
+            this.lblBookID.AutoSize = true;
+            this.lblBookID.Location = new System.Drawing.Point(7, 44);
+            this.lblBookID.Name = "lblBookID";
+            this.lblBookID.Size = new System.Drawing.Size(119, 28);
+            this.lblBookID.TabIndex = 0;
+            this.lblBookID.Text = "Booking ID:";
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.dtgBookings);
+            this.groupBox10.Location = new System.Drawing.Point(4, 3);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(439, 771);
+            this.groupBox10.TabIndex = 0;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Booking List";
+            // 
+            // dtgBookings
+            // 
+            this.dtgBookings.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgBookings.Location = new System.Drawing.Point(7, 62);
+            this.dtgBookings.Name = "dtgBookings";
+            this.dtgBookings.RowHeadersWidth = 51;
+            this.dtgBookings.RowTemplate.Height = 24;
+            this.dtgBookings.Size = new System.Drawing.Size(416, 181);
+            this.dtgBookings.TabIndex = 0;
+            // 
+            // Guides
+            // 
+            this.Guides.BackColor = System.Drawing.Color.White;
+            this.Guides.Controls.Add(this.groupBox12);
+            this.Guides.Controls.Add(this.btnAddGuide);
+            this.Guides.Controls.Add(this.dtgTourGuide);
+            this.Guides.Controls.Add(this.txtTourGuide);
+            this.Guides.Controls.Add(this.lblSearchTourGuide);
+            this.Guides.Location = new System.Drawing.Point(4, 37);
+            this.Guides.Name = "Guides";
+            this.Guides.Size = new System.Drawing.Size(905, 777);
+            this.Guides.TabIndex = 4;
+            this.Guides.Text = "Maintain Tour Guides";
             // 
             // groupBox12
             // 
@@ -1399,65 +1362,14 @@
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Tour Guide Details:";
             // 
-            // label35
+            // btnGDelete
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(17, 56);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(143, 28);
-            this.label35.TabIndex = 0;
-            this.label35.Text = "Tour Guide ID:";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(17, 94);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(46, 28);
-            this.label36.TabIndex = 1;
-            this.label36.Text = "[ID]";
-            // 
-            // lblGuideName
-            // 
-            this.lblGuideName.AutoSize = true;
-            this.lblGuideName.Location = new System.Drawing.Point(17, 153);
-            this.lblGuideName.Name = "lblGuideName";
-            this.lblGuideName.Size = new System.Drawing.Size(143, 28);
-            this.lblGuideName.TabIndex = 2;
-            this.lblGuideName.Text = "Tour Guide ID:";
-            // 
-            // txtNameGuide
-            // 
-            this.txtNameGuide.Location = new System.Drawing.Point(22, 184);
-            this.txtNameGuide.Name = "txtNameGuide";
-            this.txtNameGuide.Size = new System.Drawing.Size(310, 34);
-            this.txtNameGuide.TabIndex = 3;
-            // 
-            // lblSpecial
-            // 
-            this.lblSpecial.AutoSize = true;
-            this.lblSpecial.Location = new System.Drawing.Point(17, 245);
-            this.lblSpecial.Name = "lblSpecial";
-            this.lblSpecial.Size = new System.Drawing.Size(140, 28);
-            this.lblSpecial.TabIndex = 4;
-            this.lblSpecial.Text = "Specialization:";
-            // 
-            // cbxSpecialization
-            // 
-            this.cbxSpecialization.FormattingEnabled = true;
-            this.cbxSpecialization.Location = new System.Drawing.Point(22, 277);
-            this.cbxSpecialization.Name = "cbxSpecialization";
-            this.cbxSpecialization.Size = new System.Drawing.Size(310, 36);
-            this.cbxSpecialization.TabIndex = 5;
-            // 
-            // btnGUpdate
-            // 
-            this.btnGUpdate.Location = new System.Drawing.Point(388, 277);
-            this.btnGUpdate.Name = "btnGUpdate";
-            this.btnGUpdate.Size = new System.Drawing.Size(132, 47);
-            this.btnGUpdate.TabIndex = 6;
-            this.btnGUpdate.Text = "Update";
-            this.btnGUpdate.UseVisualStyleBackColor = true;
+            this.btnGDelete.Location = new System.Drawing.Point(554, 277);
+            this.btnGDelete.Name = "btnGDelete";
+            this.btnGDelete.Size = new System.Drawing.Size(132, 47);
+            this.btnGDelete.TabIndex = 8;
+            this.btnGDelete.Text = "Delete";
+            this.btnGDelete.UseVisualStyleBackColor = true;
             // 
             // btnGClear
             // 
@@ -1468,14 +1380,161 @@
             this.btnGClear.Text = "Clear";
             this.btnGClear.UseVisualStyleBackColor = true;
             // 
-            // btnGDelete
+            // btnGUpdate
             // 
-            this.btnGDelete.Location = new System.Drawing.Point(554, 277);
-            this.btnGDelete.Name = "btnGDelete";
-            this.btnGDelete.Size = new System.Drawing.Size(132, 47);
-            this.btnGDelete.TabIndex = 8;
-            this.btnGDelete.Text = "Delete";
-            this.btnGDelete.UseVisualStyleBackColor = true;
+            this.btnGUpdate.Location = new System.Drawing.Point(388, 277);
+            this.btnGUpdate.Name = "btnGUpdate";
+            this.btnGUpdate.Size = new System.Drawing.Size(132, 47);
+            this.btnGUpdate.TabIndex = 6;
+            this.btnGUpdate.Text = "Update";
+            this.btnGUpdate.UseVisualStyleBackColor = true;
+            // 
+            // cbxSpecialization
+            // 
+            this.cbxSpecialization.FormattingEnabled = true;
+            this.cbxSpecialization.Location = new System.Drawing.Point(22, 277);
+            this.cbxSpecialization.Name = "cbxSpecialization";
+            this.cbxSpecialization.Size = new System.Drawing.Size(310, 36);
+            this.cbxSpecialization.TabIndex = 5;
+            // 
+            // lblSpecial
+            // 
+            this.lblSpecial.AutoSize = true;
+            this.lblSpecial.Location = new System.Drawing.Point(17, 245);
+            this.lblSpecial.Name = "lblSpecial";
+            this.lblSpecial.Size = new System.Drawing.Size(140, 28);
+            this.lblSpecial.TabIndex = 4;
+            this.lblSpecial.Text = "Specialization:";
+            // 
+            // txtNameGuide
+            // 
+            this.txtNameGuide.Location = new System.Drawing.Point(22, 184);
+            this.txtNameGuide.Name = "txtNameGuide";
+            this.txtNameGuide.Size = new System.Drawing.Size(310, 34);
+            this.txtNameGuide.TabIndex = 3;
+            // 
+            // lblGuideName
+            // 
+            this.lblGuideName.AutoSize = true;
+            this.lblGuideName.Location = new System.Drawing.Point(17, 153);
+            this.lblGuideName.Name = "lblGuideName";
+            this.lblGuideName.Size = new System.Drawing.Size(143, 28);
+            this.lblGuideName.TabIndex = 2;
+            this.lblGuideName.Text = "Tour Guide ID:";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(17, 94);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(46, 28);
+            this.label36.TabIndex = 1;
+            this.label36.Text = "[ID]";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(17, 56);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(143, 28);
+            this.label35.TabIndex = 0;
+            this.label35.Text = "Tour Guide ID:";
+            // 
+            // btnAddGuide
+            // 
+            this.btnAddGuide.Location = new System.Drawing.Point(24, 329);
+            this.btnAddGuide.Name = "btnAddGuide";
+            this.btnAddGuide.Size = new System.Drawing.Size(190, 34);
+            this.btnAddGuide.TabIndex = 3;
+            this.btnAddGuide.Text = "Add Tour Guide";
+            this.btnAddGuide.UseVisualStyleBackColor = true;
+            // 
+            // dtgTourGuide
+            // 
+            this.dtgTourGuide.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgTourGuide.Location = new System.Drawing.Point(24, 148);
+            this.dtgTourGuide.Name = "dtgTourGuide";
+            this.dtgTourGuide.RowHeadersWidth = 51;
+            this.dtgTourGuide.RowTemplate.Height = 24;
+            this.dtgTourGuide.Size = new System.Drawing.Size(520, 150);
+            this.dtgTourGuide.TabIndex = 2;
+            // 
+            // txtTourGuide
+            // 
+            this.txtTourGuide.Location = new System.Drawing.Point(24, 79);
+            this.txtTourGuide.Name = "txtTourGuide";
+            this.txtTourGuide.Size = new System.Drawing.Size(284, 34);
+            this.txtTourGuide.TabIndex = 1;
+            // 
+            // lblSearchTourGuide
+            // 
+            this.lblSearchTourGuide.AutoSize = true;
+            this.lblSearchTourGuide.Location = new System.Drawing.Point(19, 47);
+            this.lblSearchTourGuide.Name = "lblSearchTourGuide";
+            this.lblSearchTourGuide.Size = new System.Drawing.Size(183, 28);
+            this.lblSearchTourGuide.TabIndex = 0;
+            this.lblSearchTourGuide.Text = "Search Tour Guide:";
+            // 
+            // Reports
+            // 
+            this.Reports.BackColor = System.Drawing.Color.White;
+            this.Reports.Controls.Add(this.chart1);
+            this.Reports.Controls.Add(this.grpSort);
+            this.Reports.Controls.Add(this.groupBox13);
+            this.Reports.Location = new System.Drawing.Point(4, 37);
+            this.Reports.Name = "Reports";
+            this.Reports.Size = new System.Drawing.Size(905, 777);
+            this.Reports.TabIndex = 5;
+            this.Reports.Text = "Request Reports";
+            // 
+            // chart1
+            // 
+            chartArea11.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea11);
+            legend11.Name = "Legend1";
+            this.chart1.Legends.Add(legend11);
+            this.chart1.Location = new System.Drawing.Point(16, 421);
+            this.chart1.Name = "chart1";
+            series11.ChartArea = "ChartArea1";
+            series11.Legend = "Legend1";
+            series11.Name = "Series1";
+            this.chart1.Series.Add(series11);
+            this.chart1.Size = new System.Drawing.Size(848, 319);
+            this.chart1.TabIndex = 2;
+            this.chart1.Text = "chrtReport";
+            // 
+            // grpSort
+            // 
+            this.grpSort.Controls.Add(this.rdbDescending);
+            this.grpSort.Controls.Add(this.rdbAscending);
+            this.grpSort.Location = new System.Drawing.Point(16, 239);
+            this.grpSort.Name = "grpSort";
+            this.grpSort.Size = new System.Drawing.Size(207, 156);
+            this.grpSort.TabIndex = 1;
+            this.grpSort.TabStop = false;
+            this.grpSort.Text = "Sort Report";
+            // 
+            // rdbDescending
+            // 
+            this.rdbDescending.AutoSize = true;
+            this.rdbDescending.Location = new System.Drawing.Point(7, 103);
+            this.rdbDescending.Name = "rdbDescending";
+            this.rdbDescending.Size = new System.Drawing.Size(140, 32);
+            this.rdbDescending.TabIndex = 1;
+            this.rdbDescending.TabStop = true;
+            this.rdbDescending.Text = "Descending";
+            this.rdbDescending.UseVisualStyleBackColor = true;
+            // 
+            // rdbAscending
+            // 
+            this.rdbAscending.AutoSize = true;
+            this.rdbAscending.Location = new System.Drawing.Point(7, 52);
+            this.rdbAscending.Name = "rdbAscending";
+            this.rdbAscending.Size = new System.Drawing.Size(128, 32);
+            this.rdbAscending.TabIndex = 0;
+            this.rdbAscending.TabStop = true;
+            this.rdbAscending.Text = "Ascending";
+            this.rdbAscending.UseVisualStyleBackColor = true;
             // 
             // groupBox13
             // 
@@ -1493,31 +1552,30 @@
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Report Options";
             // 
-            // lblType
+            // btnGenerate
             // 
-            this.lblType.AutoSize = true;
-            this.lblType.Location = new System.Drawing.Point(7, 48);
-            this.lblType.Name = "lblType";
-            this.lblType.Size = new System.Drawing.Size(137, 28);
-            this.lblType.TabIndex = 0;
-            this.lblType.Text = "Reporty Type:";
+            this.btnGenerate.Location = new System.Drawing.Point(582, 145);
+            this.btnGenerate.Name = "btnGenerate";
+            this.btnGenerate.Size = new System.Drawing.Size(182, 35);
+            this.btnGenerate.TabIndex = 6;
+            this.btnGenerate.Text = "Generate Report";
+            this.btnGenerate.UseVisualStyleBackColor = true;
             // 
-            // cbxReportType
+            // dateTo
             // 
-            this.cbxReportType.FormattingEnabled = true;
-            this.cbxReportType.Location = new System.Drawing.Point(166, 51);
-            this.cbxReportType.Name = "cbxReportType";
-            this.cbxReportType.Size = new System.Drawing.Size(492, 36);
-            this.cbxReportType.TabIndex = 1;
+            this.dateTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTo.Location = new System.Drawing.Point(278, 143);
+            this.dateTo.Name = "dateTo";
+            this.dateTo.Size = new System.Drawing.Size(132, 34);
+            this.dateTo.TabIndex = 5;
             // 
-            // lblFrom
+            // dateFrom
             // 
-            this.lblFrom.AutoSize = true;
-            this.lblFrom.Location = new System.Drawing.Point(7, 111);
-            this.lblFrom.Name = "lblFrom";
-            this.lblFrom.Size = new System.Drawing.Size(112, 28);
-            this.lblFrom.TabIndex = 2;
-            this.lblFrom.Text = "From Date:";
+            this.dateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateFrom.Location = new System.Drawing.Point(12, 143);
+            this.dateFrom.Name = "dateFrom";
+            this.dateFrom.Size = new System.Drawing.Size(132, 34);
+            this.dateFrom.TabIndex = 4;
             // 
             // lblTo
             // 
@@ -1528,79 +1586,31 @@
             this.lblTo.TabIndex = 3;
             this.lblTo.Text = "To Date:";
             // 
-            // dateFrom
+            // lblFrom
             // 
-            this.dateFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateFrom.Location = new System.Drawing.Point(12, 143);
-            this.dateFrom.Name = "dateFrom";
-            this.dateFrom.Size = new System.Drawing.Size(132, 34);
-            this.dateFrom.TabIndex = 4;
+            this.lblFrom.AutoSize = true;
+            this.lblFrom.Location = new System.Drawing.Point(7, 111);
+            this.lblFrom.Name = "lblFrom";
+            this.lblFrom.Size = new System.Drawing.Size(112, 28);
+            this.lblFrom.TabIndex = 2;
+            this.lblFrom.Text = "From Date:";
             // 
-            // dateTo
+            // cbxReportType
             // 
-            this.dateTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTo.Location = new System.Drawing.Point(278, 143);
-            this.dateTo.Name = "dateTo";
-            this.dateTo.Size = new System.Drawing.Size(132, 34);
-            this.dateTo.TabIndex = 5;
+            this.cbxReportType.FormattingEnabled = true;
+            this.cbxReportType.Location = new System.Drawing.Point(166, 51);
+            this.cbxReportType.Name = "cbxReportType";
+            this.cbxReportType.Size = new System.Drawing.Size(492, 36);
+            this.cbxReportType.TabIndex = 1;
             // 
-            // btnGenerate
+            // lblType
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(582, 145);
-            this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(182, 35);
-            this.btnGenerate.TabIndex = 6;
-            this.btnGenerate.Text = "Generate Report";
-            this.btnGenerate.UseVisualStyleBackColor = true;
-            // 
-            // grpSort
-            // 
-            this.grpSort.Controls.Add(this.rdbDescending);
-            this.grpSort.Controls.Add(this.rdbAscending);
-            this.grpSort.Location = new System.Drawing.Point(16, 239);
-            this.grpSort.Name = "grpSort";
-            this.grpSort.Size = new System.Drawing.Size(207, 156);
-            this.grpSort.TabIndex = 1;
-            this.grpSort.TabStop = false;
-            this.grpSort.Text = "Sort Report";
-            // 
-            // rdbAscending
-            // 
-            this.rdbAscending.AutoSize = true;
-            this.rdbAscending.Location = new System.Drawing.Point(7, 52);
-            this.rdbAscending.Name = "rdbAscending";
-            this.rdbAscending.Size = new System.Drawing.Size(128, 32);
-            this.rdbAscending.TabIndex = 0;
-            this.rdbAscending.TabStop = true;
-            this.rdbAscending.Text = "Ascending";
-            this.rdbAscending.UseVisualStyleBackColor = true;
-            // 
-            // rdbDescending
-            // 
-            this.rdbDescending.AutoSize = true;
-            this.rdbDescending.Location = new System.Drawing.Point(7, 103);
-            this.rdbDescending.Name = "rdbDescending";
-            this.rdbDescending.Size = new System.Drawing.Size(140, 32);
-            this.rdbDescending.TabIndex = 1;
-            this.rdbDescending.TabStop = true;
-            this.rdbDescending.Text = "Descending";
-            this.rdbDescending.UseVisualStyleBackColor = true;
-            // 
-            // chart1
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(16, 421);
-            this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(848, 319);
-            this.chart1.TabIndex = 2;
-            this.chart1.Text = "chrtReport";
+            this.lblType.AutoSize = true;
+            this.lblType.Location = new System.Drawing.Point(7, 48);
+            this.lblType.Name = "lblType";
+            this.lblType.Size = new System.Drawing.Size(137, 28);
+            this.lblType.TabIndex = 0;
+            this.lblType.Text = "Reporty Type:";
             // 
             // Admin
             // 
@@ -1641,27 +1651,27 @@
             this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgActivity)).EndInit();
             this.Tourists.ResumeLayout(false);
-            this.Bookings.ResumeLayout(false);
-            this.Guides.ResumeLayout(false);
-            this.Guides.PerformLayout();
-            this.Reports.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgTourist)).EndInit();
-            this.groupBox10.ResumeLayout(false);
+            this.Bookings.ResumeLayout(false);
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgBookings)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgTourGuide)).EndInit();
+            this.Guides.ResumeLayout(false);
+            this.Guides.PerformLayout();
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgTourGuide)).EndInit();
+            this.Reports.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.grpSort.ResumeLayout(false);
             this.grpSort.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
             this.ResumeLayout(false);
 
         }
