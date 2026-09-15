@@ -148,6 +148,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Home";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

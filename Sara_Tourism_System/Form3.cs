@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
 namespace Sara_Tourism_System
 {
     public partial class Activities : Form
@@ -18,6 +18,11 @@ namespace Sara_Tourism_System
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Activities_Load(object sender, EventArgs e)
         {
 
         }

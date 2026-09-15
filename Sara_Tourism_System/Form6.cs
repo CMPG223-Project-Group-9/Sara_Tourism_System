@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
+using System.Data;
 namespace Sara_Tourism_System
 {
     public partial class EditBooking : Form
@@ -15,6 +16,11 @@ namespace Sara_Tourism_System
         public EditBooking()
         {
             InitializeComponent();
+        }
+
+        private void EditBooking_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
